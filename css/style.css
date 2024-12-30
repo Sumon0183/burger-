@@ -1,0 +1,303 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alfa Slab One", serif;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    padding: 50px 0px 80px;
+    background: url("../images/Group\ 1.png") center top no-repeat;
+}
+.menu .header-icon {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3d2514;
+    margin: 0px 20px 0px 0px;
+}
+.menu .header-icon .icon-img{
+    width: 3%;
+    margin: 0px 10px 0px 0px;
+}
+.menu .navbar-expand-lg .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3d2514;
+    letter-spacing: 3px;
+    margin: 0px 0px 0px 25px;
+}
+.banner{
+   width: 100%;
+   padding: 80px 0px;
+}
+.banner .inner-banner{
+   width: 100%;
+   padding: 60px 0px;
+}
+.banner .inner-banner h4{
+    font-size: 22px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #3d2514;
+    letter-spacing: 2px; 
+}
+.banner .inner-banner h4 span{
+    width: auto;
+    padding: 15px;
+    border: 2px dashed #3d2514;
+    margin: 0px 0px 15px;
+    display: inline-block;
+}
+.banner .inner-banner h1{
+    font-size: 90px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3d2514;
+    text-shadow: 2px 5px #fee8bc;
+
+}
+.banner .inner-banner h3{
+    font-size: 45px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3d2514;
+    text-shadow: 2px 5px #fee8bc;
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .card{
+     margin: 0px 0px 35px;
+}
+.feature .card .card-tittle{
+    font-size: 20px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.feature .card h3{
+    font-size: 32px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 0px 0px 0px 10px;
+}
+.choose .tittle {
+    width: 100%;
+    padding: 80px 0px;
+}
+.choose .tittle {
+    width: 100%;
+    padding: 0px 0px 80px;
+    text-align: center;
+}
+.choose .tittle h4{
+    font-size: 18px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #3d2514;
+    letter-spacing: 2px;
+}
+.choose .tittle h4 span{
+    display: inline-block;
+    padding: 10px;
+    background: #ffc045;
+}
+.choose .tittle .h1{
+    font-size: 47px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #3d2514;
+    letter-spacing: 2px;
+}
+.choose .tittle .p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #3d2514;
+}
+.inner-choose{
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+.inner-choose img{
+    margin: 0px 0px 30px;
+    height: 290px;
+}
+.inner-choose img{
+    font-size: 25px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #3d2514;
+    letter-spacing: 2px;
+}
+.inner-choose p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #3d2514;
+}
+.inner-choose .btn-danger{
+    font-family: "Alfa Slab One", serif;
+    padding: 15px;
+    border-radius: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #bf2222;
+    border: 1px solid #bf2222;
+}
+.inner-choose .btn-danger:hover{
+    color: #bf2222;
+    background: transparent;
+    border: 1px solid #bf2222;
+}
+.discover {
+    width: 100%;
+    padding: 80px 0px;
+}
+.discover .discover-left {
+    box-shadow: 0px 3px 18px rgb(205 198 198);
+}
+.discover .discover-box {
+    margin: 36px 18px;
+}
+.discover .discover-box h5 {
+    font-size: 28px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", serif;
+}
+.discover .discover-box h1 {
+    font-size: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-family: "Alfa Slab One", serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 5px #fee8bc;
+    line-height: 1.2em;
+}
+.card-body img {
+    height: 350px;
+    margin: 15px 40px;
+}
+.contact-us{
+    width: 100%;
+    padding:80px 0px;
+    text-align: center;
+    background: url(../images/Image\ 8.png) center top no-repeat;
+    background-size: cover;
+}
+.contact-us .tittle{
+    padding: 80px 0px;
+}
+.contact-us h4{
+    font-size: 35px;
+    font-family: "Bebas Neue", serif;
+    line-height: 1.2em;
+    color: #000;
+    text-transform:uppercase;
+
+}
+.contact-us h1{
+  font-size: 41px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3d2514;
+  font-family: "Alfa Slab One", serif;
+  letter-spacing: 2px;
+  text-shadow: 2px 3px #fee8b6;
+  line-height: 1.2em;
+}
+.main-form{
+    width: 100%;
+    padding: 80px 0px;
+}
+.main-form .form-control{
+    font-family: "Bebas Neue", serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+.main-form .btn-danger{
+    display: block;
+    font-family: "Alfa Slab One", serif;
+    padding: 20px 40px;
+    background: #bf2222;
+    border-radius: 3px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 1px solid #bf2222;
+}
+.footer {
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/Design\ 8.png) center top no-repeat;
+    background-size: cover;
+}
+.footer-img{
+    margin: ;
+}
+.footer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #fff;
+    margin: 16px 253px;
+}
+.footer .menu{
+    color: #fff;
+    font-size: 20px;
+}
+.footer-icon {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 118px;
+
+}
